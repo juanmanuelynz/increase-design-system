@@ -26,15 +26,6 @@ body {
     background-color: $NotSoWhite;
 }
 
-header {
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-section {
-    margin-bottom: 90px;
-}
-
 .right {
     float: right;
 }
@@ -47,6 +38,12 @@ label {
     text-transform: uppercase;
     color: $IncreaseWhite-bold;
 }
+
+/****************************************************************/
+/****************************************************************/
+/* Varios */
+/****************************************************************/
+/****************************************************************/
 
 /* Caja */
 .content_box {

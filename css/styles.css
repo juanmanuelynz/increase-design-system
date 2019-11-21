@@ -9,6 +9,13 @@
 /* STORYBOOK */
 /****************************************************************/
 /****************************************************************/
+header {
+  padding: 20px;
+  margin-bottom: 20px; }
+
+section {
+  margin-bottom: 90px; }
+
 .list-group {
   padding: 0 20px 0 0;
   border-right: 1px solid #D8D8D8; }
@@ -339,13 +346,6 @@ body {
   letter-spacing: -0.011em;
   background-color: #FBFBFB; }
 
-header {
-  padding: 20px;
-  margin-bottom: 20px; }
-
-section {
-  margin-bottom: 90px; }
-
 .right {
   float: right; }
 
@@ -357,6 +357,11 @@ label {
   text-transform: uppercase;
   color: #B1B1B1; }
 
+/****************************************************************/
+/****************************************************************/
+/* Varios */
+/****************************************************************/
+/****************************************************************/
 /* Caja */
 .content_box {
   background: #FFFFFF;
