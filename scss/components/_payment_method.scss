@@ -1,0 +1,183 @@
+/****************************************************************/
+/****************************************************************/
+/* Payment Method */
+/****************************************************************/
+/****************************************************************/
+
+.payment_method {
+    display: flex;
+    align-items: center;
+    
+    .method_icon {
+        width: 30px;
+        height: 20px;
+        float: left;
+        margin-right: 10px;
+        
+        background-repeat: no-repeat;
+         
+        &.cbu {
+            background-image: url('/images/CBU.svg');
+        }
+        
+        &.cash {
+            background-image: url('/images/Cash.svg');
+        }        
+        
+        &.card {
+            background-image: url('/images/CreditCard.svg');
+        }
+
+        &.visa {
+            background-image: url('/images/Visa.svg');    
+        }
+
+        &.master {
+            background-image: url('/images/Mastercard.svg');
+        }
+
+        &.amex {
+            background-image: url('/images/Amex.svg');
+        }
+
+        &.maestro {
+            background-image: url('/images/Maestro.svg');
+        }
+
+        &.mercadopago {
+            background-image: url('/images/MercadoPago.svg');
+        }
+
+        &.naranja {
+            background-image: url('/images/Naranja.svg');
+        }
+
+        &.nativa {
+            background-image: url('/images/Nativa.svg');
+        }
+
+        &.cabal {
+            background-image: url('/images/Cabal.svg');
+        }
+
+        &.diners {
+            background-image: url('/images/Diners.svg');
+        }
+
+        &.discover {
+            background-image: url('/images/Discover.svg');
+        }
+
+        &.cmr {
+            background-image: url('/images/CMRFlabella.svg');
+        }
+
+        &.cencosud {
+            background-image: url('/images/Cencosud.svg');
+        }
+
+        &.jcb {
+            background-image: url('/images/JCB.svg');
+        }
+
+        &.tarjetashopping {
+            background-image: url('/images/TarjetaShopping.svg');
+        }
+
+        &.cordobesa {
+            background-image: url('/images/Cordobesa.svg');
+        }
+
+        &.argencard {
+            background-image: url('/images/Argencard.svg');
+        }
+        
+    }
+}
+
+//.payment_method {
+//    display: flex;
+//    align-items: center;
+//    
+//    &:before {
+//        width: 30px;
+//        height: 20px;
+//        margin-right: 10px;
+//    }
+//    
+//    &.cbu:before {
+//        content: url('/images/CBU.svg');
+//    }
+//    
+//    &.cash:before {
+//        content: url('/images/Cash.svg');
+//    }        
+//
+//    &.card:before {
+//        content: url('/images/CreditCard.svg');
+//    }
+//
+//    &.visa:before {
+//        content: url('/images/Visa.svg');
+//    }
+//
+//    &.master:before {
+//        content: url('/images/Mastercard.svg');
+//    }
+//
+//    &.amex:before {
+//        content: url('/images/Amex.svg');
+//    }
+//
+//    &.maestro:before {
+//        content: url('/images/Maestro.svg');
+//    }
+//
+//    &.mercadopago:before {
+//        content: url('/images/MercadoPago.svg');
+//    }
+//
+//    &.naranja:before {
+//        content: url('/images/Naranja.svg');
+//    }
+//
+//    &.nativa:before {
+//        content: url('/images/Nativa.svg');
+//    }
+//
+//    &.cabal:before {
+//        content: url('/images/Cabal.svg');
+//    }
+//
+//    &.diners:before {
+//        content: url('/images/Diners.svg');
+//    }
+//
+//    &.discover:before {
+//        content: url('/images/Discover.svg');
+//    }
+//
+//    &.cmr:before {
+//        content: url('/images/CMRFlabella.svg');
+//    }
+//
+//    &.cencosud:before {
+//        content: url('/images/Cencosud.svg');
+//    }
+//
+//    &.jcb:before {
+//        content: url('/images/JCB.svg');
+//    }
+//
+//    &.tarjetashopping:before {
+//        content: url('/images/TarjetaShopping.svg');
+//    }
+//
+//    &.cordobesa:before {
+//        content: url('/images/Cordobesa.svg');
+//    }
+//
+//    &.argencard:before {
+//        content: url('/images/Argencard.svg');
+//    }
+//}

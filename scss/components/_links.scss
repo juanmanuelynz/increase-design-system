@@ -1,0 +1,36 @@
+/****************************************************************/
+/****************************************************************/
+/* Links */
+/****************************************************************/
+/****************************************************************/
+
+
+/* external link icon */
+.link {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    
+    transition: all 0.16s ease;
+    
+    &:after {
+        font-family: 'Material Icons';  
+
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 20px;
+        margin-left: 0px;
+    }
+    
+    &.external:after {
+        content: "open_in_new";    
+    }
+    
+    &.internal:after {
+        content: "chevron_right";    
+    }
+    
+    &:hover {
+        color: $Sky;
+    }
+}

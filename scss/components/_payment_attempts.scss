@@ -1,0 +1,70 @@
+/****************************************************************/
+/****************************************************************/
+/* Payment attempts */
+/****************************************************************/
+/****************************************************************/
+
+
+.payment_attempts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3px;
+}
+
+.payment_light {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: $IncreaseGreen-medium;
+    margin: 0 2.5px;
+    
+    transition: all 0.16s ease-out;
+    
+    &.fail {
+        background-color: $Coral;
+    }
+
+    &.partial {
+        background-color: $Sol;
+    }
+
+    &:hover {
+        border: 3px solid $IncreaseBlack;
+        box-sizing: border-box;
+    }
+
+    &.plus {
+        background: transparent;
+        border: none !important;
+
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.003em;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: $IncreaseWhite-bold;
+        cursor: default;
+    }   
+}
+
+/* LUZ DE INTENTO - TOOLTIP */
+.light_tooltip {
+    width: 263px;
+    
+    .row {
+        margin: 5px 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    span {
+        font-size: 13px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: -0.003em;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    }
+}

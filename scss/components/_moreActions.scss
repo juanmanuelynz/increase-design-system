@@ -1,0 +1,30 @@
+/****************************************************************/
+/****************************************************************/
+/* More Actions Button */
+/****************************************************************/
+/****************************************************************/
+
+
+.moreActions {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    color: $IncreaseBlack-light;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    
+    transition: all 0.3s ease-out;
+}
+
+.moreActions:hover {
+    background-color: $IncreaseWhite;
+    border: 1px solid $IncreaseBlack-light;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 9px rgba(24, 32, 38, 0.18);
+    
+    color: $Sky;
+}

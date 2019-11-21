@@ -1,0 +1,55 @@
+@import "components/variables";
+@import "components/heading";
+@import "components/contextual";
+@import "components/tag";
+@import "components/payment_method";
+@import "components/payment_attempts";
+@import "components/moreActions";
+@import "components/links";
+@import "components/details_box";
+@import "components/invoice";
+
+
+body {
+    font-family: 'Inter';
+    color: $IncreaseBlack;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.011em;
+    background-color: $NotSoWhite;
+}
+
+section {
+    margin-bottom: 90px;
+}
+
+.right {
+    float: right;
+}
+
+label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $IncreaseWhite-bold;
+}
+
+/* Caja */
+.content_box {
+    background: $IncreaseWhite;
+    border: 1px solid $IncreaseWhite-medium;
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+/* Línea separadora */
+hr {
+    border-style: solid;
+    color: $IncreaseWhite-medium;
+    margin: 50px 0 20px;
+    border-width: .5px;
+}
+

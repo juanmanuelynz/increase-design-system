@@ -1,0 +1,46 @@
+/****************************************************************/
+/****************************************************************/
+/* Contextual boxes */
+/****************************************************************/
+/****************************************************************/
+
+
+.contextual_box {
+    padding: 5px 10px;
+    background-color: IncreaseWhite;
+    border: 1px solid $IncreaseBlack-light;
+    border-radius: 4px;
+    box-shadow: 0px 3px 9px rgba(24, 32, 38, 0.18);
+
+    /* CONTEXTUAL Menu */
+    &.menu {
+        display: inline-block;
+        margin-top: 3px;
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            text-align: right;
+        }
+
+        a {
+            text-decoration: none;
+            color: $IncreaseBlack-light;
+
+            font-size: 13px;
+            line-height: 16px;
+            text-align: right;
+            letter-spacing: -0.003em;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+        }
+
+        a:hover {
+            color: $Sky;
+        }
+    }
+
+}

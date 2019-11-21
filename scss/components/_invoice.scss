@@ -1,0 +1,26 @@
+/* Detalle de Orden de pago - Encabezado */
+.invoice_header {
+    
+    .title {
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 0 20px 0 0;
+    }
+
+    h2 {
+        font-weight: 400;
+    }
+
+    h3 {
+        font-weight: 400;
+        margin: 10px 0 0;
+        
+        span {
+            color: $IncreaseWhite-medium;
+        }
+    }
+    
+}

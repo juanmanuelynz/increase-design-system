@@ -1,0 +1,64 @@
+/****************************************************************/
+/****************************************************************/
+/* TAGs */
+/****************************************************************/
+/****************************************************************/
+
+
+.tag {        
+    padding: 0 10px;
+    border-radius: 10px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    
+    /* LABEL */
+    color: $IncreaseWhite;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    /*INVOICE STATES*/
+    &.invoice {
+        &.draft {    
+            color: $IncreaseBlack-light;
+            background: $IncreaseWhite-medium;
+        }
+        &.open {
+            background: $BlueGum;
+        }
+        &.partial {
+            background: $Liquen-light;
+        }
+        &.paid {
+            background: $IncreaseGreen-medium;
+        }
+        &.null {
+            background: $IncreaseWhite-bold;
+        }
+        &.unchargeable {
+            background: $IncreaseBlack-light;
+        }
+    }
+    
+     /*PAYMENTS STATES*/
+    &.payment {
+        &.open {
+            background: $BlueGum;
+        }
+        &.processing {
+            background: $Liquen-bold;
+        }
+        &.approved {
+            background: $IncreaseGreen-bold;
+        }
+        &.paid {
+            background: $IncreaseGreen-medium;
+        }
+        &.fail {
+            background: $Coral;
+        }
+    }
+}

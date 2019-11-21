@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/****************************************************************/
+/****************************************************************/
+/* COLORES */
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/* Heading */
+/****************************************************************/
+/****************************************************************/
+h1 {
+  font-size: 32px;
+  line-height: 124%;
+  letter-spacing: -0.04em; }
+
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.011em;
+  margin: 0; }
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.011em; }
+
+/****************************************************************/
+/****************************************************************/
+/* Contextual boxes */
+/****************************************************************/
+/****************************************************************/
+.contextual_box {
+  padding: 5px 10px;
+  background-color: IncreaseWhite;
+  border: 1px solid #44494D;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px rgba(24, 32, 38, 0.18);
+  /* CONTEXTUAL Menu */ }
+  .contextual_box.menu {
+    display: inline-block;
+    margin-top: 3px; }
+    .contextual_box.menu ul {
+      margin: 0;
+      padding: 0; }
+    .contextual_box.menu li {
+      list-style: none;
+      text-align: right; }
+    .contextual_box.menu a {
+      text-decoration: none;
+      color: #44494D;
+      font-size: 13px;
+      line-height: 16px;
+      text-align: right;
+      letter-spacing: -0.003em;
+      font-feature-settings: 'tnum' on, 'lnum' on; }
+    .contextual_box.menu a:hover {
+      color: #0F6BFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* TAGs */
+/****************************************************************/
+/****************************************************************/
+.tag {
+  padding: 0 10px;
+  border-radius: 10px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  /* LABEL */
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  /*INVOICE STATES*/
+  /*PAYMENTS STATES*/ }
+  .tag.invoice.draft {
+    color: #44494D;
+    background: #D8D8D8; }
+  .tag.invoice.open {
+    background: #239DCE; }
+  .tag.invoice.partial {
+    background: #76CACA; }
+  .tag.invoice.paid {
+    background: #27BA58; }
+  .tag.invoice.null {
+    background: #B1B1B1; }
+  .tag.invoice.unchargeable {
+    background: #44494D; }
+  .tag.payment.open {
+    background: #239DCE; }
+  .tag.payment.processing {
+    background: #318686; }
+  .tag.payment.approved {
+    background: #099237; }
+  .tag.payment.paid {
+    background: #27BA58; }
+  .tag.payment.fail {
+    background: #FF6F61; }
+
+/****************************************************************/
+/****************************************************************/
+/* Payment Method */
+/****************************************************************/
+/****************************************************************/
+.payment_method {
+  display: flex;
+  align-items: center; }
+  .payment_method .method_icon {
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+    background-repeat: no-repeat; }
+    .payment_method .method_icon.cbu {
+      background-image: url("/images/CBU.svg"); }
+    .payment_method .method_icon.cash {
+      background-image: url("/images/Cash.svg"); }
+    .payment_method .method_icon.card {
+      background-image: url("/images/CreditCard.svg"); }
+    .payment_method .method_icon.visa {
+      background-image: url("/images/Visa.svg"); }
+    .payment_method .method_icon.master {
+      background-image: url("/images/Mastercard.svg"); }
+    .payment_method .method_icon.amex {
+      background-image: url("/images/Amex.svg"); }
+    .payment_method .method_icon.maestro {
+      background-image: url("/images/Maestro.svg"); }
+    .payment_method .method_icon.mercadopago {
+      background-image: url("/images/MercadoPago.svg"); }
+    .payment_method .method_icon.naranja {
+      background-image: url("/images/Naranja.svg"); }
+    .payment_method .method_icon.nativa {
+      background-image: url("/images/Nativa.svg"); }
+    .payment_method .method_icon.cabal {
+      background-image: url("/images/Cabal.svg"); }
+    .payment_method .method_icon.diners {
+      background-image: url("/images/Diners.svg"); }
+    .payment_method .method_icon.discover {
+      background-image: url("/images/Discover.svg"); }
+    .payment_method .method_icon.cmr {
+      background-image: url("/images/CMRFlabella.svg"); }
+    .payment_method .method_icon.cencosud {
+      background-image: url("/images/Cencosud.svg"); }
+    .payment_method .method_icon.jcb {
+      background-image: url("/images/JCB.svg"); }
+    .payment_method .method_icon.tarjetashopping {
+      background-image: url("/images/TarjetaShopping.svg"); }
+    .payment_method .method_icon.cordobesa {
+      background-image: url("/images/Cordobesa.svg"); }
+    .payment_method .method_icon.argencard {
+      background-image: url("/images/Argencard.svg"); }
+
+/****************************************************************/
+/****************************************************************/
+/* Payment attempts */
+/****************************************************************/
+/****************************************************************/
+.payment_attempts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 3px; }
+
+.payment_light {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #27BA58;
+  margin: 0 2.5px;
+  transition: all 0.16s ease-out; }
+  .payment_light.fail {
+    background-color: #FF6F61; }
+  .payment_light.partial {
+    background-color: #FFAC30; }
+  .payment_light:hover {
+    border: 3px solid #182026;
+    box-sizing: border-box; }
+  .payment_light.plus {
+    background: transparent;
+    border: none !important;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.003em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #B1B1B1;
+    cursor: default; }
+
+/* LUZ DE INTENTO - TOOLTIP */
+.light_tooltip {
+  width: 263px; }
+  .light_tooltip .row {
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .light_tooltip span {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: -0.003em;
+    font-feature-settings: 'tnum' on, 'lnum' on; }
+
+/****************************************************************/
+/****************************************************************/
+/* More Actions Button */
+/****************************************************************/
+/****************************************************************/
+.moreActions {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  color: #44494D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-out; }
+
+.moreActions:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #44494D;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 9px rgba(24, 32, 38, 0.18);
+  color: #0F6BFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* Links */
+/****************************************************************/
+/****************************************************************/
+/* external link icon */
+.link {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.16s ease; }
+  .link:after {
+    font-family: 'Material Icons';
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 0px; }
+  .link.external:after {
+    content: "open_in_new"; }
+  .link.internal:after {
+    content: "chevron_right"; }
+  .link:hover {
+    color: #0F6BFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* Details box */
+/****************************************************************/
+/****************************************************************/
+.details_box {
+  width: 60%;
+  border: 4px solid #182026;
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 20px; }
+  .details_box .row {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .details_box .external_link {
+    font-weight: 600; }
+
+/* Detalle de Orden de pago - Encabezado */
+.invoice_header .title {
+  display: flex;
+  align-items: center; }
+
+.invoice_header h1 {
+  margin: 0 20px 0 0; }
+
+.invoice_header h2 {
+  font-weight: 400; }
+
+.invoice_header h3 {
+  font-weight: 400;
+  margin: 10px 0 0; }
+  .invoice_header h3 span {
+    color: #D8D8D8; }
+
+body {
+  font-family: 'Inter';
+  color: #182026;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.011em;
+  background-color: #FBFBFB; }
+
+section {
+  margin-bottom: 90px; }
+
+.right {
+  float: right; }
+
+label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #B1B1B1; }
+
+/* Caja */
+.content_box {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 20px; }
+
+/* Línea separadora */
+hr {
+  border-style: solid;
+  color: #D8D8D8;
+  margin: 50px 0 20px;
+  border-width: .5px; }
+
+/*# sourceMappingURL=styles.css.map */
