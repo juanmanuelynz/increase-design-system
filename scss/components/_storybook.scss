@@ -1,0 +1,37 @@
+/****************************************************************/
+/****************************************************************/
+/* STORYBOOK */
+/****************************************************************/
+/****************************************************************/
+
+.list-group {
+    padding: 0 20px 0 0;
+    border-right: 1px solid $IncreaseWhite-medium;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 6px;
+    color: $IncreaseBlack;
+    
+    &:first-child, &:last-child {
+        border-radius: 6px;
+    }
+
+    &:hover {
+        background-color: $IncreaseWhite-light;
+    }
+    
+    &.active {
+        background-color: $IncreaseWhite;
+        color: $IncreaseGreen;
+        font-weight: 600;
+    }
+
+}
+
+.component_container {
+    border: none;
+    height: 720px;
+    width: 100%;
+}

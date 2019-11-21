@@ -1,4 +1,6 @@
 @import "components/variables";
+@import "components/storybook";
+
 @import "components/heading";
 @import "components/contextual";
 @import "components/tag";
@@ -9,6 +11,11 @@
 @import "components/details_box";
 @import "components/invoice";
 
+/****************************************************************/
+/****************************************************************/
+/* General */
+/****************************************************************/
+/****************************************************************/
 
 body {
     font-family: 'Inter';
@@ -17,6 +24,11 @@ body {
     line-height: 150%;
     letter-spacing: -0.011em;
     background-color: $NotSoWhite;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 section {
