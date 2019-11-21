@@ -242,6 +242,7 @@ h3 {
   height: 20px;
   display: inline-flex;
   align-items: center;
+  cursor: default;
   /* LABEL */
   color: #FFFFFF;
   font-weight: bold;
