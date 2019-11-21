@@ -1,6 +1,6 @@
 /****************************************************************/
 /****************************************************************/
-/* COLORES */
+/* VARIABLES */
 /****************************************************************/
 /****************************************************************/
 
@@ -19,10 +19,17 @@ $IncreaseGreen-light: #4DE07E;
 $IncreaseGreen-medium: #27BA58;
 $IncreaseGreen-bold: #099237;
 
-
 $NotSoWhite: #FBFBFB;
 
 $Sky: #0F6BFF;
+$Sky-light: #87B5FF;
+$Sky-medium: #4775BF;
+$Sky-bold: #07357F;
+
+$Alert: #E71321;
+$Alert-light: #F38990;
+$Alert-medium: #B34950;
+$Alert-bold: #730910;
 
 $BlueGum: #239DCE;
 
@@ -34,3 +41,10 @@ $Liquen-bold: #318686;
 $Coral: #FF6F61;
 
 $Sol: #FFAC30;
+
+/* Shadows */
+$button-blue-shadow: 1px 3px 4px rgba(15, 107, 255, 0.27), 1px 2px 2px rgba(15, 107, 255, 0.36);
+$button-alert-shadow: 1px 3px 4px rgba(223, 19, 33, 0.27), 1px 2px 2px rgba(223, 19, 33, 0.36);
+
+/* Bordes */
+$border-sutil: 1px solid rgba(24, 32, 38, 0.16);

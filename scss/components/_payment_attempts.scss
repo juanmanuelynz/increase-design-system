@@ -20,7 +20,7 @@
     background-color: $IncreaseGreen-medium;
     margin: 0 2.5px;
     
-    transition: all 0.16s ease-out;
+    transition: all 150ms ease-out;
     
     &.fail {
         background-color: $Coral;

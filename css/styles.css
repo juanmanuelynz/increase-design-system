@@ -9,9 +9,11 @@ html {
 
 /****************************************************************/
 /****************************************************************/
-/* COLORES */
+/* VARIABLES */
 /****************************************************************/
 /****************************************************************/
+/* Shadows */
+/* Bordes */
 /****************************************************************/
 /****************************************************************/
 /* STORYBOOK */
@@ -22,7 +24,7 @@ header {
   margin-bottom: 20px; }
 
 section {
-  margin-bottom: 90px; }
+  margin: 10px 0 60px; }
 
 .list-group {
   padding: 0 20px 0 0;
@@ -40,6 +42,9 @@ section {
     background-color: #FFFFFF;
     color: #00D246;
     font-weight: 600; }
+
+.tab-pane h2 {
+  font-weight: 400; }
 
 .component_container {
   border: none;
@@ -69,6 +74,57 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: -0.011em; }
+
+/****************************************************************/
+/****************************************************************/
+/* Buttons */
+/****************************************************************/
+/****************************************************************/
+.button {
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  transition: all 200ms ease-out; }
+  .button.cta {
+    color: #FFFFFF;
+    background-color: #0F6BFF;
+    border: 1px solid rgba(24, 32, 38, 0.16); }
+    .button.cta:hover {
+      box-shadow: 1px 3px 4px rgba(15, 107, 255, 0.27), 1px 2px 2px rgba(15, 107, 255, 0.36); }
+    .button.cta:active {
+      background-color: #07357F;
+      box-shadow: none; }
+  .button.alert {
+    color: #FFFFFF;
+    background-color: #E71321;
+    border: 1px solid rgba(24, 32, 38, 0.16); }
+    .button.alert:hover {
+      box-shadow: 1px 3px 4px rgba(223, 19, 33, 0.27), 1px 2px 2px rgba(223, 19, 33, 0.36); }
+    .button.alert:active {
+      background-color: #730910;
+      box-shadow: none; }
+  .button.invisible {
+    color: #0F6BFF;
+    background-color: transparent;
+    border: none; }
+    .button.invisible:hover {
+      background-color: rgba(24, 32, 38, 0.07); }
+    .button.invisible:active {
+      color: #07357F; }
+  .button.border {
+    color: #0F6BFF;
+    background-color: transparent;
+    border: 1px solid #0F6BFF; }
+    .button.border:hover {
+      color: #FFFFFF;
+      background-color: #0F6BFF; }
+    .button.border:active {
+      background-color: #07357F;
+      box-shadow: none; }
 
 /****************************************************************/
 /****************************************************************/
@@ -217,7 +273,7 @@ h3 {
   border-radius: 100%;
   background-color: #27BA58;
   margin: 0 2.5px;
-  transition: all 0.16s ease-out; }
+  transition: all 150ms ease-out; }
   .payment_light.fail {
     background-color: #FF6F61; }
   .payment_light.partial {

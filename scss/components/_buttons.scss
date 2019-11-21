@@ -1,0 +1,82 @@
+/****************************************************************/
+/****************************************************************/
+/* Buttons */
+/****************************************************************/
+/****************************************************************/
+
+.button {
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.011em;
+    font-weight: 600;
+    
+    transition: all 200ms ease-out;
+    
+    &.cta {
+        color: $IncreaseWhite;
+        background-color: $Sky;
+        border: $border-sutil;
+        
+        &:hover {
+            box-shadow: $button-blue-shadow;
+        }
+        
+        &:active {
+            background-color: $Sky-bold;
+            box-shadow: none;
+        }
+    }
+    
+    &.alert {
+        color: $IncreaseWhite;
+        background-color: $Alert;
+        border: $border-sutil;
+        
+        &:hover {
+            box-shadow: $button-alert-shadow;
+        }
+        
+        &:active {
+            background-color: $Alert-bold;
+            box-shadow: none;
+        }
+    }
+    
+    &.invisible {
+        color: $Sky;
+        background-color: transparent;
+        border: none;
+        
+        &:hover {
+            background-color: rgba(24,32,38,.07);
+        }
+        
+        &:active {
+            color: $Sky-bold;
+        }
+    }
+    
+    &.border {
+        color: $Sky;
+        background-color: transparent;
+        border: 1px solid $Sky;
+        
+        &:hover {
+            color: $IncreaseWhite;
+            background-color: $Sky;
+        }
+        
+        &:active {
+            background-color: $Sky-bold;
+            border: none;
+        }
+    }
+}

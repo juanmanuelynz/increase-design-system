@@ -10,7 +10,7 @@ header {
 }
 
 section {
-    margin-bottom: 90px;
+    margin: 10px 0 60px;
 }
 
 .list-group {
@@ -39,8 +39,14 @@ section {
 
 }
 
+.tab-pane {
+    h2 {
+        font-weight: 400;
+    }
+}
+
 .component_container {
     border: none;
     height: 720px;
-    width: 100%;
+    width: 100%;   
 }
