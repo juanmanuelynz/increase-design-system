@@ -21,7 +21,18 @@ html {
 /****************************************************************/
 header {
   padding: 20px;
-  margin-bottom: 20px; }
+  margin: 20px 0 30px;
+  color: #FFFFFF;
+  background: #182026;
+  border-radius: 18px; }
+  header img {
+    float: left;
+    width: 72px;
+    padding: 0 20px 10px 10px; }
+  header h1 {
+    margin-bottom: 0; }
+  header h2 {
+    font-weight: 400; }
 
 section {
   margin: 10px 0 60px; }
@@ -264,43 +275,43 @@ h3 {
     margin-right: 10px;
     background-repeat: no-repeat; }
     .payment_method .method_icon.cbu {
-      background-image: url("/images/CBU.svg"); }
+      background-image: url("/images/payment/CBU.svg"); }
     .payment_method .method_icon.cash {
-      background-image: url("/images/Cash.svg"); }
+      background-image: url("/images/payment/Cash.svg"); }
     .payment_method .method_icon.card {
-      background-image: url("/images/CreditCard.svg"); }
+      background-image: url("/images/payment/CreditCard.svg"); }
     .payment_method .method_icon.visa {
-      background-image: url("/images/Visa.svg"); }
+      background-image: url("/images/payment/Visa.svg"); }
     .payment_method .method_icon.master {
-      background-image: url("/images/Mastercard.svg"); }
+      background-image: url("/images/payment/Mastercard.svg"); }
     .payment_method .method_icon.amex {
-      background-image: url("/images/Amex.svg"); }
+      background-image: url("/images/payment/Amex.svg"); }
     .payment_method .method_icon.maestro {
-      background-image: url("/images/Maestro.svg"); }
+      background-image: url("/images/payment/Maestro.svg"); }
     .payment_method .method_icon.mercadopago {
-      background-image: url("/images/MercadoPago.svg"); }
+      background-image: url("/images/payment/MercadoPago.svg"); }
     .payment_method .method_icon.naranja {
-      background-image: url("/images/Naranja.svg"); }
+      background-image: url("/images/payment/Naranja.svg"); }
     .payment_method .method_icon.nativa {
-      background-image: url("/images/Nativa.svg"); }
+      background-image: url("/images/payment/Nativa.svg"); }
     .payment_method .method_icon.cabal {
-      background-image: url("/images/Cabal.svg"); }
+      background-image: url("/images/payment/Cabal.svg"); }
     .payment_method .method_icon.diners {
-      background-image: url("/images/Diners.svg"); }
+      background-image: url("/images/payment/Diners.svg"); }
     .payment_method .method_icon.discover {
-      background-image: url("/images/Discover.svg"); }
+      background-image: url("/images/payment/Discover.svg"); }
     .payment_method .method_icon.cmr {
-      background-image: url("/images/CMRFlabella.svg"); }
+      background-image: url("/images/payment/CMRFlabella.svg"); }
     .payment_method .method_icon.cencosud {
-      background-image: url("/images/Cencosud.svg"); }
+      background-image: url("/images/payment/Cencosud.svg"); }
     .payment_method .method_icon.jcb {
-      background-image: url("/images/JCB.svg"); }
+      background-image: url("/images/payment/JCB.svg"); }
     .payment_method .method_icon.tarjetashopping {
-      background-image: url("/images/TarjetaShopping.svg"); }
+      background-image: url("/images/payment/TarjetaShopping.svg"); }
     .payment_method .method_icon.cordobesa {
-      background-image: url("/images/Cordobesa.svg"); }
+      background-image: url("/images/payment/Cordobesa.svg"); }
     .payment_method .method_icon.argencard {
-      background-image: url("/images/Argencard.svg"); }
+      background-image: url("/images/payment/Argencard.svg"); }
 
 /****************************************************************/
 /****************************************************************/

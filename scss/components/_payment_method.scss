@@ -13,83 +13,83 @@
         height: 20px;
         float: left;
         margin-right: 10px;
-        
+    
         background-repeat: no-repeat;
          
         &.cbu {
-            background-image: url('/images/CBU.svg');
+            background-image: url('/images/payment/CBU.svg');
         }
         
         &.cash {
-            background-image: url('/images/Cash.svg');
+            background-image: url('/images/payment/Cash.svg');
         }        
         
         &.card {
-            background-image: url('/images/CreditCard.svg');
+            background-image: url('/images/payment/CreditCard.svg');
         }
 
         &.visa {
-            background-image: url('/images/Visa.svg');    
+            background-image: url('/images/payment/Visa.svg');    
         }
 
         &.master {
-            background-image: url('/images/Mastercard.svg');
+            background-image: url('/images/payment/Mastercard.svg');
         }
 
         &.amex {
-            background-image: url('/images/Amex.svg');
+            background-image: url('/images/payment/Amex.svg');
         }
 
         &.maestro {
-            background-image: url('/images/Maestro.svg');
+            background-image: url('/images/payment/Maestro.svg');
         }
 
         &.mercadopago {
-            background-image: url('/images/MercadoPago.svg');
+            background-image: url('/images/payment/MercadoPago.svg');
         }
 
         &.naranja {
-            background-image: url('/images/Naranja.svg');
+            background-image: url('/images/payment/Naranja.svg');
         }
 
         &.nativa {
-            background-image: url('/images/Nativa.svg');
+            background-image: url('/images/payment/Nativa.svg');
         }
 
         &.cabal {
-            background-image: url('/images/Cabal.svg');
+            background-image: url('/images/payment/Cabal.svg');
         }
 
         &.diners {
-            background-image: url('/images/Diners.svg');
+            background-image: url('/images/payment/Diners.svg');
         }
 
         &.discover {
-            background-image: url('/images/Discover.svg');
+            background-image: url('/images/payment/Discover.svg');
         }
 
         &.cmr {
-            background-image: url('/images/CMRFlabella.svg');
+            background-image: url('/images/payment/CMRFlabella.svg');
         }
 
         &.cencosud {
-            background-image: url('/images/Cencosud.svg');
+            background-image: url('/images/payment/Cencosud.svg');
         }
 
         &.jcb {
-            background-image: url('/images/JCB.svg');
+            background-image: url('/images/payment/JCB.svg');
         }
 
         &.tarjetashopping {
-            background-image: url('/images/TarjetaShopping.svg');
+            background-image: url('/images/payment/TarjetaShopping.svg');
         }
 
         &.cordobesa {
-            background-image: url('/images/Cordobesa.svg');
+            background-image: url('/images/payment/Cordobesa.svg');
         }
 
         &.argencard {
-            background-image: url('/images/Argencard.svg');
+            background-image: url('/images/payment/Argencard.svg');
         }
         
     }
