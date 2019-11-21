@@ -64,6 +64,49 @@
         }
     }
     
+    &.iconized {
+        padding-left: 8px;
+        padding-right: 10px;
+        
+        color: $IncreaseWhite;
+        background-color: $Sky;
+        border: $border-sutil;
+        
+        &:hover {
+            box-shadow: $button-blue-shadow;
+        }
+        
+        &:active {
+            background-color: $Sky-bold;
+            box-shadow: none;
+        }
+        
+        span {
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
+            
+            &:before {
+                font-size: 20px;
+            }
+        }
+    }
+    
+    &.invisible.iconized {
+        color: $Sky;
+        background-color: transparent;
+        border: none;
+        
+        &:hover {
+            background-color: rgba(24,32,38,.07);
+            box-shadow: none;
+        }
+        
+        &:active {
+            color: $Sky-bold;
+        }
+    }
+    
     &.border {
         color: $Sky;
         background-color: transparent;

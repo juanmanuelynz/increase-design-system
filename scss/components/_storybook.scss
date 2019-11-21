@@ -16,12 +16,14 @@ section {
 .list-group {
     padding: 0 20px 0 0;
     border-right: 1px solid $IncreaseWhite-medium;
+    height: 100%;
 }
 
 .list-group-item {
     border: none;
     border-radius: 6px;
     color: $IncreaseBlack;
+    background-color: transparent;
     
     &:first-child, &:last-child {
         border-radius: 6px;
@@ -32,7 +34,7 @@ section {
     }
     
     &.active {
-        background-color: $IncreaseWhite;
+        background-color: transparent;
         color: $IncreaseGreen;
         font-weight: 600;
     }
