@@ -27,7 +27,8 @@
         <div class="row">
             <div class="col-3">
                 <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#payment_attempts" role="tab">Intento de pago en tabla</a>
+                    
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#buttons" role="tab">Botones</a>
                     
                     <a class="list-group-item list-group-item-action" data-toggle="list" href="#moreAction" role="tab">Botón MoreAction</a>
                     
@@ -37,15 +38,17 @@
                     
                     <a class="list-group-item list-group-item-action" data-toggle="list" href="#invoice" role="tab">Órden de pago</a>
                     
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#payment_attempts" role="tab">Intento de pago en tabla</a>
+                    
                     <a class="list-group-item list-group-item-action" data-toggle="list" href="#varios" role="tab">Varios</a>
                 </div>
             </div>
             <div class="col-9">
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="payment_attempts" role="tabpanel">
-                        <iframe class="component_container" src="components/payment_attempts.html"></iframe>
+                    <div class="tab-pane fade show active" id="buttons" role="tabpanel">
+                        <iframe class="component_container" src="components/buttons.html"></iframe>  
                     </div>
-
+                    
                     <div class="tab-pane fade" id="moreAction" role="tabpanel">
                         <iframe class="component_container" src="components/moreAction.html"></iframe>  
                     </div>
@@ -60,6 +63,10 @@
                     
                     <div class="tab-pane fade" id="invoice" role="tabpanel">
                         <iframe class="component_container" src="components/invoice.html"></iframe>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="payment_attempts" role="tabpanel">
+                        <iframe class="component_container" src="components/payment_attempts.html"></iframe>
                     </div>
                     
                     <div class="tab-pane fade" id="varios" role="tabpanel">
