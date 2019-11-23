@@ -18,4 +18,157 @@
     &.edit:before {
         content: "edit";
     }
+    
+    &.add:before {
+        content: "add";
+    }
+    
+    &.mail:before {
+        content: "mail";
+    }
+    
+    &.delete:before {
+        content: "delete_forever";
+    }
+    
+    &.event:before {
+        content: "event";
+    }
+    
+    &.search:before {
+        content: "search";
+    }
+    
+    &.concil:before {
+        content: "done_all";
+    }
+    
+    &.credit_card:before {
+        content: "credit_card";
+    }
+    
+    &.chevron_left:before {
+        content: "chevron_left";
+    }
+    
+    &.chevron_right:before {
+        content: "chevron_right";
+    }
+    
+    &.chevron_up:before {
+        content: "keyboard_arrow_up";
+    }
+    
+    &.chevron_down:before {
+        content: "keyboard_arrow_down";
+    }
+    
+    &.arrow_back:before {
+        content: "arrow_back";
+    }
+    
+    &.arrow_forward:before {
+        content: "arrow_forward";
+    }
+    
+    &.arrow_upward:before {
+        content: "arrow_upward";
+    }
+    
+    &.arrow_downward:before {
+        content: "arrow_downward";
+    }
+    
+    &.duplicate:before {
+        content: "library_add";
+    }
+    
+    &.time:before {
+        content: "alarm";
+    }
+    
+    &.file:before {
+        content: "insert_drive_file";
+    }
+    
+    &.close:before {
+        content: "close";
+    }
+    
+    &.filter_list:before {
+        content: "filter_list";
+    }
+    
+    &.restore:before {
+        content: "restore";
+    }
+    
+    &.menu:before {
+        content: "menu";
+    }
+    
+    &.visibility:before {
+        content: "visibility";
+    }
+    
+    &.visibility_off:before {
+        content: "visibility_off";
+    }
+    
+    &.message:before {
+        content: "sms";
+    }
+    
+    &.cancel:before {
+        content: "cancel";
+    }
+    
+    &.autorenew:before {
+        content: "autorenew";
+    }
+    
+    &.notifications:before {
+        content: "notifications";
+    }
+    
+    &.help:before {
+        content: "help";
+    }
+    
+    &.wallet:before {
+        content: "account_balance_wallet";
+    }    
+    
+    &.phone:before {
+        content: "phone";
+    }
+    
+    &.archive:before {
+        content: "archive";
+    }
+    
+    &.person:before {
+        content: "person";
+    }
+    
+    &.settings:before {
+        content: "settings";
+    }    
+    
+    &.build:before {
+        content: "build";
+    }
+    
+    &.error:before {
+        content: "error";
+    }
+    
+    &.info:before {
+        content: "info";
+    } 
+    
+    &.play:before {
+        content: "play_arrow";
+    }   
+    
 }

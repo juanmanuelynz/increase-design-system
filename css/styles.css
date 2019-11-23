@@ -20,19 +20,56 @@ html {
 /****************************************************************/
 /****************************************************************/
 header {
-  padding: 20px;
-  margin: 20px 0 30px;
-  color: #FFFFFF;
-  background: #182026;
-  border-radius: 18px; }
-  header img {
-    float: left;
-    width: 72px;
-    padding: 0 20px 10px 10px; }
-  header h1 {
-    margin-bottom: 0; }
-  header h2 {
-    font-weight: 400; }
+  margin-bottom: 50px; }
+  header .heading {
+    align-items: flex-end;
+    background: #FFFFFF;
+    padding: 10px 5.5%; }
+    header .heading img {
+      float: left;
+      width: 36px;
+      margin-right: 10px; }
+    header .heading .title {
+      display: flex;
+      align-items: baseline; }
+    header .heading h2 {
+      margin-bottom: 0;
+      margin-right: 10px; }
+    header .heading h3 {
+      font-weight: 400; }
+  header nav {
+    color: #FFFFFF;
+    background: #182026;
+    justify-content: center; }
+    header nav ul {
+      padding: 0;
+      margin: 0;
+      height: 56px;
+      display: flex;
+      list-style: none;
+      align-items: flex-end; }
+      header nav ul li {
+        height: 35px;
+        margin: 0 20px; }
+        header nav ul li a {
+          color: #B1B1B1;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+          text-align: center;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          padding-bottom: 8px; }
+          header nav ul li a:hover {
+            color: #D0F6DD;
+            text-decoration: none;
+            border-bottom: 6px solid #D0F6DD; }
+          header nav ul li a.active {
+            color: #FFFFFF;
+            border-bottom: 6px solid #FFFFFF; }
+
+h1 {
+  margin-bottom: 40px; }
 
 section {
   margin: 10px 0 60px; }
@@ -106,15 +143,27 @@ h3 {
   letter-spacing: -0.011em;
   font-weight: 600;
   transition: all 200ms ease-out; }
-  .button.cta {
+  .button:hover {
+    text-decoration: none; }
+  .button.cta, .button.iconized {
     color: #FFFFFF;
     background-color: #0F6BFF;
     border: 1px solid rgba(24, 32, 38, 0.16); }
-    .button.cta:hover {
+    .button.cta:hover, .button.iconized:hover {
       box-shadow: 1px 2px 3px rgba(15, 107, 255, 0.27), 1px 2px 2px rgba(15, 107, 255, 0.36); }
-    .button.cta:active {
+    .button.cta:active, .button.iconized:active {
       background-color: #07357F;
       box-shadow: none; }
+  .button.iconized {
+    padding-left: 8px;
+    padding-right: 10px; }
+    .button.iconized span {
+      display: inline-flex;
+      align-items: center;
+      margin-top: -1px; }
+      .button.iconized span:before {
+        font-size: 18px;
+        margin-right: 8px; }
   .button.alert {
     color: #FFFFFF;
     background-color: #E71321;
@@ -124,48 +173,23 @@ h3 {
     .button.alert:active {
       background-color: #730910;
       box-shadow: none; }
-  .button.invisible {
+  .button.transparent {
     color: #0F6BFF;
     background-color: transparent;
-    border: none; }
-    .button.invisible:hover {
-      background-color: rgba(24, 32, 38, 0.07); }
-    .button.invisible:active {
-      color: #07357F; }
-  .button.iconized {
-    padding-left: 8px;
-    padding-right: 10px;
-    color: #FFFFFF;
-    background-color: #0F6BFF;
-    border: 1px solid rgba(24, 32, 38, 0.16); }
-    .button.iconized:hover {
-      box-shadow: 1px 2px 3px rgba(15, 107, 255, 0.27), 1px 2px 2px rgba(15, 107, 255, 0.36); }
-    .button.iconized:active {
-      background-color: #07357F;
-      box-shadow: none; }
-    .button.iconized span {
-      width: 18px;
-      height: 18px;
-      margin-right: 8px; }
-      .button.iconized span:before {
-        font-size: 20px; }
-  .button.invisible.iconized {
-    color: #0F6BFF;
-    background-color: transparent;
-    border: none; }
-    .button.invisible.iconized:hover {
+    border-color: transparent; }
+    .button.transparent:hover {
       background-color: rgba(24, 32, 38, 0.07);
       box-shadow: none; }
-    .button.invisible.iconized:active {
+    .button.transparent:active {
       color: #07357F; }
-  .button.border {
+  .button.borde {
     color: #0F6BFF;
     background-color: transparent;
     border: 1px solid #0F6BFF; }
-    .button.border:hover {
+    .button.borde:hover {
       color: #FFFFFF;
       background-color: #0F6BFF; }
-    .button.border:active {
+    .button.borde:active {
       background-color: #07357F;
       border: none; }
 
@@ -183,6 +207,120 @@ h3 {
 
 .icon.edit:before {
   content: "edit"; }
+
+.icon.add:before {
+  content: "add"; }
+
+.icon.mail:before {
+  content: "mail"; }
+
+.icon.delete:before {
+  content: "delete_forever"; }
+
+.icon.event:before {
+  content: "event"; }
+
+.icon.search:before {
+  content: "search"; }
+
+.icon.concil:before {
+  content: "done_all"; }
+
+.icon.credit_card:before {
+  content: "credit_card"; }
+
+.icon.chevron_left:before {
+  content: "chevron_left"; }
+
+.icon.chevron_right:before {
+  content: "chevron_right"; }
+
+.icon.chevron_up:before {
+  content: "keyboard_arrow_up"; }
+
+.icon.chevron_down:before {
+  content: "keyboard_arrow_down"; }
+
+.icon.arrow_back:before {
+  content: "arrow_back"; }
+
+.icon.arrow_forward:before {
+  content: "arrow_forward"; }
+
+.icon.arrow_upward:before {
+  content: "arrow_upward"; }
+
+.icon.arrow_downward:before {
+  content: "arrow_downward"; }
+
+.icon.duplicate:before {
+  content: "library_add"; }
+
+.icon.time:before {
+  content: "alarm"; }
+
+.icon.file:before {
+  content: "insert_drive_file"; }
+
+.icon.close:before {
+  content: "close"; }
+
+.icon.filter_list:before {
+  content: "filter_list"; }
+
+.icon.restore:before {
+  content: "restore"; }
+
+.icon.menu:before {
+  content: "menu"; }
+
+.icon.visibility:before {
+  content: "visibility"; }
+
+.icon.visibility_off:before {
+  content: "visibility_off"; }
+
+.icon.message:before {
+  content: "sms"; }
+
+.icon.cancel:before {
+  content: "cancel"; }
+
+.icon.autorenew:before {
+  content: "autorenew"; }
+
+.icon.notifications:before {
+  content: "notifications"; }
+
+.icon.help:before {
+  content: "help"; }
+
+.icon.wallet:before {
+  content: "account_balance_wallet"; }
+
+.icon.phone:before {
+  content: "phone"; }
+
+.icon.archive:before {
+  content: "archive"; }
+
+.icon.person:before {
+  content: "person"; }
+
+.icon.settings:before {
+  content: "settings"; }
+
+.icon.build:before {
+  content: "build"; }
+
+.icon.error:before {
+  content: "error"; }
+
+.icon.info:before {
+  content: "info"; }
+
+.icon.play:before {
+  content: "play_arrow"; }
 
 /****************************************************************/
 /****************************************************************/
@@ -435,7 +573,6 @@ h3 {
 /****************************************************************/
 /****************************************************************/
 .details_box {
-  width: 60%;
   border: 4px solid #182026;
   box-sizing: border-box;
   border-radius: 9px;
@@ -445,7 +582,10 @@ h3 {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: flex-start;
+    /* space-between;*/ }
+    .details_box .row label {
+      width: 35%; }
   .details_box .external_link {
     font-weight: 600; }
 

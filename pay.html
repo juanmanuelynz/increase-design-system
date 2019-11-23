@@ -12,7 +12,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
-	<title>Increase Design System</title>
+	<title>Pay | Increase Design System</title>
 </head>
 
 <body>
@@ -27,8 +27,8 @@
         </div>
         <nav class="row">
             <ul>
-                <li><a href="/index.html" class="active">Librería</a></li>
-                <li><a href="/pay.html">Pay</a></li>
+                <li><a href="/index.html">Librería</a></li>
+                <li><a href="/pay.html" class="active">Pay</a></li>
                 <li><a href="/card.html">Card</a></li>
             </ul>
         </nav>
@@ -40,38 +40,27 @@
             <div class="col-3">
                 <div class="list-group" id="list-tab" role="tablist">
                     
-                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#buttons" role="tab">Botones</a>
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#detailsBox" role="tab">Caja Detalles</a>
                     
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#moreAction" role="tab">Botón MoreAction</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#invoice" role="tab">Órden de pago</a>
                     
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#tag" role="tab">Tags</a>
-
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#path_selector" role="tab">Path selector</a>
-                    
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#varios" role="tab">Varios</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#payment_attempts" role="tab">Intento de pago en tabla</a>
                 </div>
             </div>
             <div class="col-9">
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="buttons" role="tabpanel">
-                        <iframe class="component_container" src="components/buttons.html"></iframe>  
-                    </div>
-                    
-                    <div class="tab-pane fade" id="moreAction" role="tabpanel">
-                        <iframe class="component_container" src="components/moreAction.html"></iframe>  
+                    <div class="tab-pane fade show active" id="detailsBox" role="tabpanel">
+                        <iframe class="component_container" src="components/details_box.html"></iframe>
                     </div>
 
-                    <div class="tab-pane fade" id="tag" role="tabpanel">
-                        <iframe class="component_container" src="components/tag.html"></iframe>
+                    <div class="tab-pane fade" id="invoice" role="tabpanel">
+                        <iframe class="component_container" src="components/invoice.html"></iframe>
                     </div>
                     
-                    <div class="tab-pane fade" id="path_selector" role="tabpanel">
-                        <iframe class="component_container" src="components/path_selector.html"></iframe>
+                    <div class="tab-pane fade" id="payment_attempts" role="tabpanel">
+                        <iframe class="component_container" src="components/payment_attempts.html"></iframe>
                     </div>
                     
-                    <div class="tab-pane fade" id="varios" role="tabpanel">
-                        <iframe class="component_container" src="components/varios.html"></iframe>
-                    </div>
                 </div>
             </div>
         </div>
