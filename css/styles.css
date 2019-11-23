@@ -25,7 +25,8 @@ html {
   font-size: 24px;
   /* Preferred icon size */
   display: inline-block;
-  line-height: 24px; }
+  line-height: 24px;
+  color: #44494D; }
 
 .icon.edit:before {
   content: "edit"; }
@@ -325,6 +326,8 @@ h3 {
     .button.borde:active {
       background-color: #07357F;
       border: none; }
+  .button.disabled {
+    opacity: .50; }
 
 /****************************************************************/
 /****************************************************************/
@@ -524,6 +527,33 @@ h3 {
       color: #FFFFFF; }
     .path_selector.active p, .path_selector:active p {
       color: #FFFFFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* Modales */
+/****************************************************************/
+/****************************************************************/
+/* Caja */
+.modal_box {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative; }
+  .modal_box h2 {
+    color: #182026;
+    padding-right: 20px; }
+  .modal_box p {
+    margin-top: 0; }
+  .modal_box .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #182026;
+    cursor: pointer; }
+    .modal_box .close:hover {
+      color: #0F6BFF; }
 
 /****************************************************************/
 /****************************************************************/

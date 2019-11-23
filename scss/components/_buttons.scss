@@ -101,4 +101,8 @@
             border: none;
         }
     }
+    
+    &.disabled {
+        opacity: .50;
+    }
 }
