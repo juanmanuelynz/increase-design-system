@@ -472,6 +472,7 @@ h3 {
 /****************************************************************/
 /****************************************************************/
 .path_selector {
+  cursor: pointer;
   box-sizing: border-box;
   background: #FFFFFF;
   /* Rest_Shadow */
@@ -484,11 +485,11 @@ h3 {
     color: #44494D; }
   .path_selector p {
     color: #44494D; }
-  .path_selector.active, .path_selector:hover {
+  .path_selector:hover {
     position: relative;
     box-shadow: 6px 6px 18px rgba(67, 183, 183, 0.27), 1px 3px 4px rgba(67, 183, 183, 0.36);
     border: 3px solid #43B7B7; }
-    .path_selector.active:after, .path_selector:hover:after {
+    .path_selector:hover:after {
       font-family: 'Material Icons';
       font-size: 24px;
       /* Preferred icon size */
@@ -499,10 +500,30 @@ h3 {
       position: absolute;
       top: 10px;
       right: 10px; }
-    .path_selector.active h3, .path_selector:hover h3 {
+    .path_selector:hover h3 {
       color: #43B7B7; }
-    .path_selector.active p, .path_selector:hover p {
+    .path_selector:hover p {
       color: #43B7B7; }
+  .path_selector.active, .path_selector:active {
+    background-color: #43B7B7;
+    position: relative;
+    box-shadow: 6px 6px 18px rgba(67, 183, 183, 0.27), 1px 3px 4px rgba(67, 183, 183, 0.36);
+    border: 3px solid #43B7B7; }
+    .path_selector.active:after, .path_selector:active:after {
+      font-family: 'Material Icons';
+      font-size: 24px;
+      /* Preferred icon size */
+      display: inline-block;
+      line-height: 24px;
+      content: "check_circle";
+      color: #FFFFFF;
+      position: absolute;
+      top: 10px;
+      right: 10px; }
+    .path_selector.active h3, .path_selector:active h3 {
+      color: #FFFFFF; }
+    .path_selector.active p, .path_selector:active p {
+      color: #FFFFFF; }
 
 /****************************************************************/
 /****************************************************************/

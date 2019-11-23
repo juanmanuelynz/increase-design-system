@@ -7,6 +7,7 @@
 
 
 .path_selector {
+    cursor: pointer;
     box-sizing: border-box;
     background: $IncreaseWhite;
     /* Rest_Shadow */
@@ -26,7 +27,7 @@
     }
 
     
-    &.active, &:hover {
+    &:hover {
         position: relative;
         box-shadow: $liquen-box-glow;
         border: 3px solid $Liquen;
@@ -52,31 +53,31 @@
         }
     }
 
-//    &.active, &:hover {
-//        background-color: $Liquen;
-//        position: relative;
-//        box-shadow: $liquen-box-glow;
-//        border: 1px solid $Liquen-medium;        
-//        
-//        &:after {
-//            font-family: 'Material Icons';  
-//            font-size: 24px;  /* Preferred icon size */
-//            display: inline-block;
-//            line-height: 24px;
-//            content: "check_circle";
-//            color: $IncreaseWhite;
-//            position: absolute;
-//            top: 10px;
-//            right: 10px;
-//        }
-//        
-//        h3 {
-//            color: $IncreaseWhite;
-//        }
-//
-//        p {
-//            color: $IncreaseWhite;
-//        }
-//    }
+    &.active, &:active {
+        background-color: $Liquen;
+        position: relative;
+        box-shadow: $liquen-box-glow;
+        border: 3px solid $Liquen;        
+        
+        &:after {
+            font-family: 'Material Icons';  
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 24px;
+            content: "check_circle";
+            color: $IncreaseWhite;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        h3 {
+            color: $IncreaseWhite;
+        }
+
+        p {
+            color: $IncreaseWhite;
+        }
+    }
 }
 
