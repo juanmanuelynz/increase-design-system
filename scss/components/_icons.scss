@@ -169,6 +169,10 @@
     
     &.play:before {
         content: "play_arrow";
-    }   
+    }
+    
+    &.check:before {
+        content: "check_circle";
+    }
     
 }

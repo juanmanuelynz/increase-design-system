@@ -13,7 +13,140 @@ html {
 /****************************************************************/
 /****************************************************************/
 /* Shadows */
+/* Glows */
 /* Bordes */
+/****************************************************************/
+/****************************************************************/
+/* Icons */
+/****************************************************************/
+/****************************************************************/
+.icon:before {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 24px; }
+
+.icon.edit:before {
+  content: "edit"; }
+
+.icon.add:before {
+  content: "add"; }
+
+.icon.mail:before {
+  content: "mail"; }
+
+.icon.delete:before {
+  content: "delete_forever"; }
+
+.icon.event:before {
+  content: "event"; }
+
+.icon.search:before {
+  content: "search"; }
+
+.icon.concil:before {
+  content: "done_all"; }
+
+.icon.credit_card:before {
+  content: "credit_card"; }
+
+.icon.chevron_left:before {
+  content: "chevron_left"; }
+
+.icon.chevron_right:before {
+  content: "chevron_right"; }
+
+.icon.chevron_up:before {
+  content: "keyboard_arrow_up"; }
+
+.icon.chevron_down:before {
+  content: "keyboard_arrow_down"; }
+
+.icon.arrow_back:before {
+  content: "arrow_back"; }
+
+.icon.arrow_forward:before {
+  content: "arrow_forward"; }
+
+.icon.arrow_upward:before {
+  content: "arrow_upward"; }
+
+.icon.arrow_downward:before {
+  content: "arrow_downward"; }
+
+.icon.duplicate:before {
+  content: "library_add"; }
+
+.icon.time:before {
+  content: "alarm"; }
+
+.icon.file:before {
+  content: "insert_drive_file"; }
+
+.icon.close:before {
+  content: "close"; }
+
+.icon.filter_list:before {
+  content: "filter_list"; }
+
+.icon.restore:before {
+  content: "restore"; }
+
+.icon.menu:before {
+  content: "menu"; }
+
+.icon.visibility:before {
+  content: "visibility"; }
+
+.icon.visibility_off:before {
+  content: "visibility_off"; }
+
+.icon.message:before {
+  content: "sms"; }
+
+.icon.cancel:before {
+  content: "cancel"; }
+
+.icon.autorenew:before {
+  content: "autorenew"; }
+
+.icon.notifications:before {
+  content: "notifications"; }
+
+.icon.help:before {
+  content: "help"; }
+
+.icon.wallet:before {
+  content: "account_balance_wallet"; }
+
+.icon.phone:before {
+  content: "phone"; }
+
+.icon.archive:before {
+  content: "archive"; }
+
+.icon.person:before {
+  content: "person"; }
+
+.icon.settings:before {
+  content: "settings"; }
+
+.icon.build:before {
+  content: "build"; }
+
+.icon.error:before {
+  content: "error"; }
+
+.icon.info:before {
+  content: "info"; }
+
+.icon.play:before {
+  content: "play_arrow"; }
+
+.icon.check:before {
+  content: "check_circle"; }
+
 /****************************************************************/
 /****************************************************************/
 /* STORYBOOK */
@@ -195,150 +328,6 @@ h3 {
 
 /****************************************************************/
 /****************************************************************/
-/* Icons */
-/****************************************************************/
-/****************************************************************/
-.icon:before {
-  font-family: 'Material Icons';
-  font-size: 24px;
-  /* Preferred icon size */
-  display: inline-block;
-  line-height: 24px; }
-
-.icon.edit:before {
-  content: "edit"; }
-
-.icon.add:before {
-  content: "add"; }
-
-.icon.mail:before {
-  content: "mail"; }
-
-.icon.delete:before {
-  content: "delete_forever"; }
-
-.icon.event:before {
-  content: "event"; }
-
-.icon.search:before {
-  content: "search"; }
-
-.icon.concil:before {
-  content: "done_all"; }
-
-.icon.credit_card:before {
-  content: "credit_card"; }
-
-.icon.chevron_left:before {
-  content: "chevron_left"; }
-
-.icon.chevron_right:before {
-  content: "chevron_right"; }
-
-.icon.chevron_up:before {
-  content: "keyboard_arrow_up"; }
-
-.icon.chevron_down:before {
-  content: "keyboard_arrow_down"; }
-
-.icon.arrow_back:before {
-  content: "arrow_back"; }
-
-.icon.arrow_forward:before {
-  content: "arrow_forward"; }
-
-.icon.arrow_upward:before {
-  content: "arrow_upward"; }
-
-.icon.arrow_downward:before {
-  content: "arrow_downward"; }
-
-.icon.duplicate:before {
-  content: "library_add"; }
-
-.icon.time:before {
-  content: "alarm"; }
-
-.icon.file:before {
-  content: "insert_drive_file"; }
-
-.icon.close:before {
-  content: "close"; }
-
-.icon.filter_list:before {
-  content: "filter_list"; }
-
-.icon.restore:before {
-  content: "restore"; }
-
-.icon.menu:before {
-  content: "menu"; }
-
-.icon.visibility:before {
-  content: "visibility"; }
-
-.icon.visibility_off:before {
-  content: "visibility_off"; }
-
-.icon.message:before {
-  content: "sms"; }
-
-.icon.cancel:before {
-  content: "cancel"; }
-
-.icon.autorenew:before {
-  content: "autorenew"; }
-
-.icon.notifications:before {
-  content: "notifications"; }
-
-.icon.help:before {
-  content: "help"; }
-
-.icon.wallet:before {
-  content: "account_balance_wallet"; }
-
-.icon.phone:before {
-  content: "phone"; }
-
-.icon.archive:before {
-  content: "archive"; }
-
-.icon.person:before {
-  content: "person"; }
-
-.icon.settings:before {
-  content: "settings"; }
-
-.icon.build:before {
-  content: "build"; }
-
-.icon.error:before {
-  content: "error"; }
-
-.icon.info:before {
-  content: "info"; }
-
-.icon.play:before {
-  content: "play_arrow"; }
-
-/****************************************************************/
-/****************************************************************/
-/* Content boxes */
-/****************************************************************/
-/****************************************************************/
-/* Caja */
-.content_box {
-  background: #FFFFFF;
-  border: 1px solid #D8D8D8;
-  box-sizing: border-box;
-  border-radius: 9px;
-  padding: 20px; }
-  .content_box h2 {
-    color: #182026; }
-
-/****************************************************************/
-/****************************************************************/
 /* Contextual boxes */
 /****************************************************************/
 /****************************************************************/
@@ -368,6 +357,69 @@ h3 {
       font-feature-settings: 'tnum' on, 'lnum' on; }
     .contextual_box.menu a:hover {
       color: #0F6BFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* More Actions Button */
+/****************************************************************/
+/****************************************************************/
+.moreActions {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  color: #44494D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-out; }
+
+.moreActions:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #44494D;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 9px rgba(24, 32, 38, 0.18);
+  color: #0F6BFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* Links */
+/****************************************************************/
+/****************************************************************/
+/* external link icon */
+.link {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.16s ease; }
+  .link:after {
+    font-family: 'Material Icons';
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 0px; }
+  .link.external:after {
+    content: "open_in_new"; }
+  .link.internal:after {
+    content: "chevron_right"; }
+  .link:hover {
+    color: #0F6BFF; }
+
+/****************************************************************/
+/****************************************************************/
+/* Content boxes */
+/****************************************************************/
+/****************************************************************/
+/* Caja */
+.content_box {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 20px; }
+  .content_box h2 {
+    color: #182026; }
 
 /****************************************************************/
 /****************************************************************/
@@ -413,6 +465,44 @@ h3 {
     background: #27BA58; }
   .tag.payment.fail {
     background: #FF6F61; }
+
+/****************************************************************/
+/****************************************************************/
+/* Path selector */
+/****************************************************************/
+/****************************************************************/
+.path_selector {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  /* Rest_Shadow */
+  box-shadow: 0px 0px 5px rgba(24, 32, 38, 0.15);
+  border-radius: 9px;
+  padding: 10px 20px;
+  border: 3px solid #FFFFFF;
+  transition: all 200ms ease-out; }
+  .path_selector h3 {
+    color: #44494D; }
+  .path_selector p {
+    color: #44494D; }
+  .path_selector.active, .path_selector:hover {
+    position: relative;
+    box-shadow: 6px 6px 18px rgba(67, 183, 183, 0.27), 1px 3px 4px rgba(67, 183, 183, 0.36);
+    border: 3px solid #43B7B7; }
+    .path_selector.active:after, .path_selector:hover:after {
+      font-family: 'Material Icons';
+      font-size: 24px;
+      /* Preferred icon size */
+      display: inline-block;
+      line-height: 24px;
+      content: "check_circle";
+      color: #43B7B7;
+      position: absolute;
+      top: 10px;
+      right: 10px; }
+    .path_selector.active h3, .path_selector:hover h3 {
+      color: #43B7B7; }
+    .path_selector.active p, .path_selector:hover p {
+      color: #43B7B7; }
 
 /****************************************************************/
 /****************************************************************/
@@ -518,54 +608,6 @@ h3 {
     text-align: right;
     letter-spacing: -0.003em;
     font-feature-settings: 'tnum' on, 'lnum' on; }
-
-/****************************************************************/
-/****************************************************************/
-/* More Actions Button */
-/****************************************************************/
-/****************************************************************/
-.moreActions {
-  width: 32px;
-  height: 32px;
-  border-radius: 4px;
-  color: #44494D;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.3s ease-out; }
-
-.moreActions:hover {
-  background-color: #FFFFFF;
-  border: 1px solid #44494D;
-  box-sizing: border-box;
-  box-shadow: 0px 3px 9px rgba(24, 32, 38, 0.18);
-  color: #0F6BFF; }
-
-/****************************************************************/
-/****************************************************************/
-/* Links */
-/****************************************************************/
-/****************************************************************/
-/* external link icon */
-.link {
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  transition: all 0.16s ease; }
-  .link:after {
-    font-family: 'Material Icons';
-    font-size: 24px;
-    /* Preferred icon size */
-    display: inline-block;
-    line-height: 20px;
-    margin-left: 0px; }
-  .link.external:after {
-    content: "open_in_new"; }
-  .link.internal:after {
-    content: "chevron_right"; }
-  .link:hover {
-    color: #0F6BFF; }
 
 /****************************************************************/
 /****************************************************************/

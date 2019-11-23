@@ -1,0 +1,82 @@
+/****************************************************************/
+/****************************************************************/
+/* Path selector */
+/****************************************************************/
+/****************************************************************/
+
+
+
+.path_selector {
+    box-sizing: border-box;
+    background: $IncreaseWhite;
+    /* Rest_Shadow */
+    box-shadow: $shadow-rest;
+    border-radius: 9px;
+    padding: 10px 20px;
+    border: 3px solid $IncreaseWhite;
+    
+    transition: all 200ms ease-out;
+    
+    h3 {
+        color: $IncreaseBlack-light;
+    }
+    
+    p {
+        color: $IncreaseBlack-light;
+    }
+
+    
+    &.active, &:hover {
+        position: relative;
+        box-shadow: $liquen-box-glow;
+        border: 3px solid $Liquen;
+        
+        &:after {
+            font-family: 'Material Icons';  
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 24px;
+            content: "check_circle";
+            color: $Liquen;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        h3 {
+            color: $Liquen;
+        }
+
+        p {
+            color: $Liquen;
+        }
+    }
+
+//    &.active, &:hover {
+//        background-color: $Liquen;
+//        position: relative;
+//        box-shadow: $liquen-box-glow;
+//        border: 1px solid $Liquen-medium;        
+//        
+//        &:after {
+//            font-family: 'Material Icons';  
+//            font-size: 24px;  /* Preferred icon size */
+//            display: inline-block;
+//            line-height: 24px;
+//            content: "check_circle";
+//            color: $IncreaseWhite;
+//            position: absolute;
+//            top: 10px;
+//            right: 10px;
+//        }
+//        
+//        h3 {
+//            color: $IncreaseWhite;
+//        }
+//
+//        p {
+//            color: $IncreaseWhite;
+//        }
+//    }
+}
+
